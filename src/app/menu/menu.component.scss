@@ -1,0 +1,28 @@
+header {
+    color: #e3e9ec; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%; 
+
+    a {
+        color: #e3e9ec; 
+        text-decoration: none; 
+        justify-content: space-between;
+        margin-left: 24px; 
+
+        &:hover {
+            color: #fffc87;
+        }
+    }
+
+}
+
+.header-container {
+    align-items: center; 
+    justify-content: space-between;
+    text-align: center; 
+    margin-top: 30px; 
+    width: 600px; 
+
+}
