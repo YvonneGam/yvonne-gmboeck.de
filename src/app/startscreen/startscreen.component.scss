@@ -1,3 +1,58 @@
 body {
-    color: e3e9ec;
+    color: #e3e9ec;
+    padding-left: 40px;
+}
+
+.startscreen {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startscreen-main {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.startscreen-font {
+    font-family: "Prata", serif;
+    font-size: 110px;
+}
+
+.job-designation {
+    font-size: 26px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+.startscreen-logo {
+    width: 400px;
+    margin-left: 60px;
+    right: 60px;
+}
+
+.greeting {
+    letter-spacing: 4px;
+    animation: opacityAnimation 3s ease-in-out;
+}
+
+@keyframes opacityAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+span {
+    transition: 0.5s;
+}
+
+:hover span {
+    color: #e3e9ec;
+    text-shadow: 0 0 10px #e3e9ec, 0 0 40px #e3e9ec, 0 0 80px #e3e9ec;
 }

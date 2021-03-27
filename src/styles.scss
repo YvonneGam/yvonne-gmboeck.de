@@ -4,3 +4,42 @@ body {
     right: 0;
     background-color: #003e4a; 
 }
+
+/////////////////////////////GLOBAL STYLES//////////////////////////////////////////////////////////////
+
+//Main colors:
+
+.yellow {
+    color: #fffc87;
+}
+
+.light-gray {
+    color: #e3e9ec;
+}
+
+.red {
+    color: #ff665a; 
+}
+
+//Font:
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+}
+
+//Arrengment:
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+display: none;
+}
+
+.arrow {
+    width: 60px; 
+    margin-top: 40px; 
+    cursor: pointer;
+}
