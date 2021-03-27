@@ -5,7 +5,17 @@ body {
     background-color: #003e4a; 
 }
 
-/////////////////////////////GLOBAL STYLES//////////////////////////////////////////////////////////////
+///////////////////////////
+//GLOBAL STYLES//
+///////////////////////////
+
+
+h2 {
+    color: #fffc87;
+    font-size: 3rem;
+    margin-top: 30px; 
+    letter-spacing: 2px;
+}
 
 //Main colors:
 
@@ -37,6 +47,12 @@ body {
 .d-none {
 display: none;
 }
+
+.absolute {
+    position: absolute; 
+}
+
+//Objects:
 
 .arrow {
     width: 60px; 

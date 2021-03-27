@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./startscreen.component.scss']
 })
 export class StartscreenComponent implements OnInit {
-  greetings = ['Hi,', 'Servus,', 'Hello,'];
+  greetings = ['Hi,', 'Servus,'];
   currentText = 0;
   showText = true;
 

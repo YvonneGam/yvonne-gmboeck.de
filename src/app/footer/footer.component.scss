@@ -1,0 +1,44 @@
+body {
+    left: 0;
+    bottom: 0;
+}
+
+.footer-container {
+    background-color: #ff665a;
+    height: 70px;
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 40px;
+    color: #003e4a;
+    font-size: 16px; 
+    padding: 20px; 
+    align-items: center; 
+    overflow: hidden; 
+
+    p {
+        text-align: center; 
+        font-weight: bold;
+    }
+}
+
+.footer-rights {
+    justify-content: space-between;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.footer-links {
+
+    a {
+        text-decoration: none;
+        color:#003e4a;
+        margin-right: 8px;
+        margin-left: 8px;
+
+        &:hover {
+            color:#fffc87;
+        }
+    }
+
+
+}
