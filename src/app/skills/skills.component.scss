@@ -1,0 +1,161 @@
+.skills-container {
+    margin-top: 60px; 
+    background-image: url('/assets/img/code-4333398_1280.jpg');
+    background-size: cover; 
+    height: 450px;
+}
+
+.background-img {
+    position: absolute;
+    left: 0px;
+    right: 0px; 
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -20px;
+    overflow: hidden;
+    top: 2200px;
+    z-index: -3;
+}
+
+.skill-img-container {
+    width: 30%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+
+     img {
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    } 
+}
+
+h2 {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 30px; 
+}
+
+p {
+    color: white;
+    text-align:center;
+    font-size: 14px; 
+}
+
+
+.imgLink-angular {
+    background-image: url('/assets/img/angular-original.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
+
+
+.imgLink-js {
+    background-image: url('/assets/img/JavaScript-original.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
+
+.imgLink-css {
+    background-image: url('/assets/img/CSS-original.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
+
+.imgLink-html {
+    background-image: url('/assets/img/HTML-original.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
+
+
+.imgLink-id {
+    background-image: url('/assets/img/InDesign-original.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
+
+.imgLink-ps {
+    background-image: url('/assets/img/Photoshop-originl.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
+
+.imgLink-ai {
+    background-image: url('/assets/img/Illustrator-original.png');
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+     &:hover {
+        img {
+            display: none; 
+        }
+    } 
+}
