@@ -60,3 +60,35 @@ display: none;
     margin-top: 40px; 
     cursor: pointer;
 }
+
+
+
+.btn {
+    text-decoration: none;
+    padding: 18px 40px;
+    background-color: #b44c44;
+    color: #e3e9ec;
+    font-weight: bolder;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative; 
+    z-index: 1;
+}
+
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    transform: translate(-50%, -50%);
+    background-image: radial-gradient(circle closet-side, #ff665a, transparent);
+    width: 0; height: 0;
+    transition: width 0.3 ease, height 0.3 ease;
+    z-index: -1;
+}
+
+.btn:hover::before {
+    width: 250px;
+    height: 250px; 
+}

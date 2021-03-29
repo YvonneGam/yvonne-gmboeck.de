@@ -19,15 +19,15 @@
 }
 
 .skill-img-container {
-    width: 30%;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 35%;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-bottom: 100px;
     flex-wrap: wrap;
 
      img {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
         margin-right: 25px;
         margin-bottom: 25px;
     } 
@@ -40,18 +40,25 @@ h2 {
 }
 
 p {
-    color: white;
+    color: #e3e9ec;
     text-align:center;
-    font-size: 14px; 
+    font-size: 12.5px; 
 }
 
+.arrow-container {
+    justify-content: center;
+}
+
+.icon-bu {
+    margin-right: 25px;
+    margin-bottom: 15px; 
+}
 
 .imgLink-angular {
     background-image: url('/assets/img/angular-original.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
+    width: 70px;
+    height: 70px;
     margin-bottom: 5px;
     display: block;
 
@@ -66,10 +73,9 @@ p {
 .imgLink-js {
     background-image: url('/assets/img/JavaScript-original.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
     display: block;
 
      &:hover {
@@ -82,10 +88,9 @@ p {
 .imgLink-css {
     background-image: url('/assets/img/CSS-original.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
     display: block;
 
      &:hover {
@@ -98,10 +103,9 @@ p {
 .imgLink-html {
     background-image: url('/assets/img/HTML-original.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
     display: block;
 
      &:hover {
@@ -115,10 +119,9 @@ p {
 .imgLink-id {
     background-image: url('/assets/img/InDesign-original.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
     display: block;
 
      &:hover {
@@ -131,10 +134,9 @@ p {
 .imgLink-ps {
     background-image: url('/assets/img/Photoshop-originl.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
     display: block;
 
      &:hover {
@@ -147,10 +149,9 @@ p {
 .imgLink-ai {
     background-image: url('/assets/img/Illustrator-original.png');
     background-size:cover;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
     display: block;
 
      &:hover {

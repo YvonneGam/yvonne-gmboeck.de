@@ -56,3 +56,13 @@ span {
     color: #e3e9ec;
     text-shadow: 0 0 10px #e3e9ec, 0 0 40px #e3e9ec, 0 0 80px #e3e9ec;
 }
+
+
+.arrow-up {
+    position: fixed;
+    height: 60px;
+    transform: scaleY(-1);
+    right: 80px; 
+    top: 510px;
+    cursor: pointer;
+}
