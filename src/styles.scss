@@ -1,7 +1,5 @@
 body {
-    left: 0;
-    top: 0;
-    right: 0;
+margin: 0;
     background-color: #003e4a; 
     scroll-behavior: smooth;
 }
@@ -13,7 +11,7 @@ body {
 
 h2 {
     color: #fffc87;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 30px; 
     letter-spacing: 2px;
 }
@@ -65,11 +63,11 @@ display: none;
 
 .btn {
     text-decoration: none;
-    padding: 18px 40px;
-    background-color: #b44c44;
+    padding: 16px 24px;
+    background-color: #ff6654;
     color: #e3e9ec;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 16px;
     overflow: hidden;
     position: relative; 
     z-index: 1;

@@ -1,21 +1,19 @@
 body {
-   left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100vw;  
+    margin: 0;
+    width: 100vw;
 }
 
 .footer-container {
     background-color: #ff665a;
     height: 70px;
     color: #003e4a;
-    font-size: 14px; 
-    padding: 20px; 
-    align-items: center; 
-    overflow: hidden; 
+    font-size: 14px;
+    padding: 20px;
+    align-items: center;
+    overflow: hidden;
 
     p {
-        text-align: center; 
+        text-align: center;
         font-weight: bold;
     }
 }
@@ -27,17 +25,14 @@ body {
 }
 
 .footer-links {
-
     a {
         text-decoration: none;
-        color:#003e4a;
+        color: #003e4a;
         margin-right: 8px;
         margin-left: 8px;
 
         &:hover {
-            color:#fffc87;
+            color: #fffc87;
         }
     }
-
-
 }
