@@ -1,0 +1,22 @@
+.imprint {
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    flex-direction: column;
+   text-align: center;
+
+    a {
+        text-decoration: none;
+        color:#e3e9ec;
+
+        &:hover {
+            color: #fffc87;
+        }
+    }
+}
+
+h3 {
+    font-family: "Prata", serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}

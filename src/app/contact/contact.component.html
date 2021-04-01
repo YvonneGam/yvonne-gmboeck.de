@@ -1,1 +1,15 @@
-<p>contact works!</p>
+<div class="contact d-flex">
+        <div class="contact-font light-gray">
+            <div *ngIf="showText" class="yellow greeting">Say {{greetings[currentText]}} <br> </div>
+            don´t be shy
+        </div>
+
+        <form>
+            <input name="name" type="text" class="feedback-input montserrat" placeholder="Name" />
+            <input name="email" type="text" class="feedback-input montserrat" placeholder="Email" />
+            <textarea name="text" class="feedback-input montserrat" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT" />
+        </form>
+
+
+</div>
