@@ -1,6 +1,6 @@
 body {
-margin: 0;
-    background-color: #003e4a; 
+    margin: 0;
+    background-color: #003e4a;
     scroll-behavior: smooth;
 }
 
@@ -8,11 +8,10 @@ margin: 0;
 //GLOBAL STYLES//
 ///////////////////////////
 
-
 h2 {
     color: #fffc87;
     font-size: 2rem;
-    margin-top: 30px; 
+    margin-top: 30px;
     letter-spacing: 2px;
 }
 
@@ -27,14 +26,14 @@ h2 {
 }
 
 .red {
-    color: #ff665a; 
+    color: #ff665a;
 }
 
 //Font:
 
 .montserrat {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
 }
 
 //Arrengment:
@@ -44,22 +43,20 @@ h2 {
 }
 
 .d-none {
-display: none;
+    display: none;
 }
 
 .absolute {
-    position: absolute; 
+    position: absolute;
 }
 
 //Objects:
 
 .arrow {
-    width: 60px; 
-    margin-top: 40px; 
+    width: 60px;
+    margin-top: 40px;
     cursor: pointer;
 }
-
-
 
 .btn {
     text-decoration: none;
@@ -69,24 +66,45 @@ display: none;
     font-weight: bolder;
     font-size: 16px;
     overflow: hidden;
-    position: relative; 
+    position: relative;
     z-index: 1;
+    transition: all 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background: #cc4949;
+    }
 }
 
+.saying {
+    font-size: 30px;
+    top: 875px;
+    right: 226px;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    transition: 0.5s;
+    letter-spacing: 3px;
 
-.btn::before {
-    content: "";
-    position: absolute;
-    left: var(--x);
-    top: var(--y);
-    transform: translate(-50%, -50%);
-    background-image: radial-gradient(circle closet-side, #ff665a, transparent);
-    width: 0; height: 0;
-    transition: width 0.3 ease, height 0.3 ease;
-    z-index: -1;
+    &:hover {
+        color: #fffc87;
+        text-shadow: 0 0 10px #fffc87, 0 0 40px #fffc87, 0 0 80px #fffc87;
+    }
 }
 
-.btn:hover::before {
-    width: 250px;
-    height: 250px; 
+.greeting {
+    letter-spacing: 4px;
+    animation: opacityAnimation 3s ease-in-out;
+}
+
+.opacity-animation {
+    animation: opacityAnimation 1.5s ease-in;
+}
+
+@keyframes opacityAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

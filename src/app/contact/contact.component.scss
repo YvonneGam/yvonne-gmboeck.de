@@ -8,7 +8,7 @@
 .contact-font {
     font-size: 5.6rem;
     font-family: "Prata", serif;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 
 }
 
@@ -24,13 +24,12 @@ form {
     color: #e3e9ec;
     font-weight: 500;
     font-size: 18px;
-/*     border-radius: 5px; */
     line-height: 22px;
     background-color: transparent;
     border: 2px solid #fdfbc9;
     transition: all 0.3s;
     padding: 13px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 100%;
     box-sizing: border-box;
     outline: 0;
@@ -50,17 +49,18 @@ textarea {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     width: 40%;
     background: #ff665a;
- /*    border-radius: 5px; */
     border: 0;
     cursor: pointer;
     color: #e3e9ec;
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
-    transition: all 0.3s;
+    transition: all 0.4s;
     margin-top: 25px;
+    margin-bottom: 35px;
     font-weight: 700;
-}
-[type="submit"]:hover {
-    background: #cc4949;
+
+    &:hover {
+        background: #cc4949;
+    }
 }

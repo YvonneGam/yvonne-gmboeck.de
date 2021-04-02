@@ -1,3 +1,7 @@
+.body {
+    scroll-behavior: smooth;
+}
+
 .about-me-container {
     display: flex;
     margin-left: 70px;
@@ -28,17 +32,3 @@
     right: 180px;
 }
 
-.saying {
-    font-size: 30px;
-    top: 875px;
-    right: 226px;
-    font-family: "Prata", serif;
-    font-weight: bold;
-    transition: 0.5s;
-    letter-spacing: 3px;
-
-    &:hover {
-        color: #fffc87;
-        text-shadow: 0 0 10px #fffc87, 0 0 40px #fffc87, 0 0 80px #fffc87;
-    }
-}

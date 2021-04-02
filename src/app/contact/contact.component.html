@@ -1,14 +1,19 @@
 <div class="contact d-flex">
         <div class="contact-font light-gray">
-            <div *ngIf="showText" class="yellow greeting">Say {{greetings[currentText]}} <br> </div>
+            <div class="d-flex">
+           <div class="yellow"> Say </div>
+            <div *ngIf="showText" style="margin-left: 25px" class="yellow greeting"> {{greetings[currentText]}} <br> </div>
+        </div>
             don´t be shy
         </div>
 
-        <form>
+        <form class="opacity-animation">
             <input name="name" type="text" class="feedback-input montserrat" placeholder="Name" />
             <input name="email" type="text" class="feedback-input montserrat" placeholder="Email" />
             <textarea name="text" class="feedback-input montserrat" placeholder="Comment"></textarea>
-            <input type="submit" value="SUBMIT" />
+            <input type="submit" value="Submit" />
+
+
         </form>
 
 

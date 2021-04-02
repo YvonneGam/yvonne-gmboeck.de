@@ -47,4 +47,33 @@ h3 {
     z-index: 1;
     margin-top: 160px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+
+    &:hover {
+        background: #cc4949;
+    }
+}
+
+
+.saying-magic {
+    font-size: 30px;
+    top: 875px;
+    right: 226px;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    color: #fffc87;
+    animation: lightning 3s infinite;
+}
+
+
+@keyframes lightning{
+    from {
+        text-shadow: none;
+    }
+
+    to {
+        text-shadow: 0 0 10px #fffc87, 0 0 40px #fffc87, 0 0 80px #fffc87;
+    }
 }
