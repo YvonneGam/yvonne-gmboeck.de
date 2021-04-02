@@ -5,34 +5,47 @@ body {
 
 .footer-container {
     background-color: #ff665a;
-    height: 70px;
     color: #003e4a;
-    font-size: 14px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 16px;
     align-items: center;
     overflow: hidden;
 
     p {
         text-align: center;
         font-weight: bold;
+        font-family: 'Parisienne', cursive;
+        font-size: 25px;
     }
 }
 
 .footer-rights {
-    justify-content: space-between;
-    margin-left: 400px;
-    margin-right: 400px;
+    justify-content: center;
 }
 
 .footer-links {
+    margin-left: 60px; 
     a {
         text-decoration: none;
         color: #003e4a;
         margin-right: 8px;
         margin-left: 8px;
+        transition: all 0.8s;
 
         &:hover {
             color: #fffc87;
         }
     }
+}
+
+.github-img {
+    object-fit: cover;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 20px;
+
+        img {
+            margin-bottom: 20px; 
+            width: 40px;
+        }
 }
