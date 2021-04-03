@@ -50,6 +50,10 @@ h2 {
     position: absolute;
 }
 
+.center {
+    align-items: center;
+}
+
 //Objects:
 
 .arrow {
@@ -111,14 +115,14 @@ h2 {
 
 
 .slide-animation {
-    animation: slideAnimation 1.5s ease-in;
+    animation: slideAnimation 0.9s ease-in;
 }
 
 
 @keyframes slideAnimation {
     from {
         opacity: 0;
-        transform: translateY(80px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;

@@ -15,8 +15,24 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.changeGreetings();
+   /*  this.addSnackBar(); */
   }
 
+  /**
+   * add a snackbar when the mail is sent
+   */
+/* addSnackBar() {
+    console.log('snackbar');
+    // Get the snackbar DIV
+    let x = document.getElementById("snackbar");
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function () { x.className = x.className.replace("show", ""); }, 4000);
+}
+ */
   
 /**
  * Changes the greeting-text on init every 8seconds

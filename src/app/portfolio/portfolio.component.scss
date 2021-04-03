@@ -5,7 +5,7 @@
 }
 
 .portfolio-boxes {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .project-box {
@@ -25,16 +25,6 @@
     }
 }
 
-.saying-magic-container {
-    margin-top: 160px;
-    margin-bottom: 160px;
-    margin-left: 70px;
-    margin-right: 70px;
-    text-align: center;
-}
-h3 {
-    font-size: 2.6rem;
-}
 
 .btn-project {
     text-decoration: none;
@@ -55,7 +45,6 @@ h3 {
     }
 }
 
-
 .saying-magic {
     font-size: 30px;
     top: 875px;
@@ -68,8 +57,7 @@ h3 {
     animation: lightning 3s infinite;
 }
 
-
-@keyframes lightning{
+@keyframes lightning {
     from {
         text-shadow: none;
     }
@@ -79,9 +67,8 @@ h3 {
     }
 }
 
-
 .imgLink-elPollo {
-    background-image: url('/assets/img/projects/devices-mockup.png');
+    background-image: url("/assets/img/projects/devices-mockup-monitor_el-pollo.png");
     background-size: contain;
     width: 100%;
     height: 100%;
@@ -89,23 +76,134 @@ h3 {
         animation: 15s ease-in;
     }
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
-
 .imgLink-Join {
-    background-image: url('/assets/img/projects/devices-mockup.png');
+    background-image: url("/assets/img/projects/devices-mockup.png");
     background-size: contain;
     width: 100%;
     height: 100%;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
+}
+
+
+.saying-magic-container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    font-size: 3rem;
+    align-items: center;
+}
+
+.magic {
+    position: absolute; 
+}
+
+//Sparkle Effects
+
+section {
+    position: relative;
+    margin-left: 0px !important; 
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+    .star {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        min-height: 400px;
+        pointer-events: none;
+    }
+}
+
+.star1 {
+    background: url("/assets/img/magic/star1.png");
+    animation: sparkleStars 3s ease-in-out infinite;
+}
+
+.star2 {
+    background: url("/assets/img/magic/star2.png");
+    animation: sparkleStars 4s ease-in-out infinite;
+}
+
+.star3 {
+    background: url("/assets/img/magic/star3.png");
+    animation: sparkleStars 5s ease-in-out infinite;
+}
+
+.star4 {
+    background: url("/assets/img/magic/star4.png");
+    animation: sparkleStars 6s ease-in-out infinite;
+}
+
+.star5 {
+    background: url("/assets/img/magic/star5.png");
+    animation: sparkleStars 7s ease-in-out infinite;
+}
+
+.star6 {
+    background: url("/assets/img/magic/star6.png");
+    animation: sparkleStars 8s ease-in-out infinite,
+}
+
+@keyframes sparkleStars {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes backgroundmove {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scal(1);
+    }
 }

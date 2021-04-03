@@ -12,8 +12,12 @@
 }
 
 .text-about {
-    font-size: 16px;
+    font-size: 0.9rem;
     margin-bottom: 75px;
+    
+p {
+    line-height: 1.2rem; 
+}
 }
 
 .about-me-text {
@@ -31,4 +35,3 @@
     top: 810px;
     right: 180px;
 }
-

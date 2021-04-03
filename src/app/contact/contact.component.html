@@ -8,11 +8,13 @@
         </div>
 
         <form action="http://localhost:4200/contact/send_mail.php" method="POST" class="slide-animation">
-            <input name="name" type="text" class="feedback-input montserrat" placeholder="Name" />
-            <input name="email" type="text" class="feedback-input montserrat" placeholder="Email" />
-            <textarea name="text" class="feedback-input montserrat" placeholder="Your message"></textarea>
+            <input name="name" type="text" class="feedback-input montserrat" placeholder="Name" required/>
+            <input name="email" type="text" class="feedback-input montserrat" placeholder="Email" required/>
+            <textarea name="text" class="feedback-input montserrat" placeholder="Your message" required></textarea>
             <input type="submit" value="Submit" />
         </form>
+
+        <div class="snackbar" id="snackbar">Thanks for your message</div>
 
 
 </div>
