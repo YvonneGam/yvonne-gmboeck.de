@@ -40,12 +40,13 @@ body {
 
 .github-img {
     object-fit: cover;
-    cursor: pointer;
     justify-content: center;
     margin-top: 20px;
 
+    a {
+        cursor: pointer;
+    }
         img {
-            margin-bottom: 20px; 
             width: 40px;
         }
 }
