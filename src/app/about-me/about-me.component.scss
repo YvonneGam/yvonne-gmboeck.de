@@ -4,8 +4,8 @@
 
 .about-me-container {
     display: flex;
-    margin-left: 70px;
-    margin-right: 120px;
+    margin-left: 15%;
+    margin-right: 15%;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
@@ -32,6 +32,19 @@ p {
 
 .img-square {
     width: 230px;
-    top: 810px;
-    right: 180px;
+    top: 820px;
+    right: 380px;
 }
+
+.square-saying {
+    background-image: url('/assets/img/square-yellow.png');
+    object-fit: cover; 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+//Responsive Design about-me component
+

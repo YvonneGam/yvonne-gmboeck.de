@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
     background-color: #003e4a;
@@ -10,7 +15,7 @@ body {
 
 h2 {
     color: #fffc87;
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-top: 30px;
     letter-spacing: 2px;
 }
@@ -82,8 +87,8 @@ h2 {
 
 .saying {
     font-size: 30px;
-    top: 875px;
-    right: 226px;
+    top: 880px;
+    right: 423px;
     font-family: "Prata", serif;
     font-weight: bold;
     transition: 0.5s;
