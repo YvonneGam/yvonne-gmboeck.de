@@ -162,3 +162,19 @@ p {
         }
     } 
 }
+
+//Responsive
+
+@media(max-width: 1400px) {
+
+    .skill-img-container {
+        margin-left: 10%;
+        margin-right: 10%; 
+        width: 35%;
+    }
+
+    h2 {
+        margin-left: 10%; 
+    }
+
+}

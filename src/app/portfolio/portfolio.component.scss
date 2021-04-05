@@ -25,7 +25,6 @@
     }
 }
 
-
 .btn-project {
     text-decoration: none;
     padding: 14px 24px;
@@ -96,7 +95,6 @@
     }
 }
 
-
 .saying-magic-container {
     margin-top: 80px;
     margin-bottom: 40px;
@@ -111,14 +109,14 @@ h3 {
 }
 
 .magic {
-    position: absolute; 
+    position: absolute;
 }
 
 //Sparkle Effects
 
 section {
     position: relative;
-    margin-left: 0px !important; 
+    margin-left: 0px !important;
     width: 100%;
     height: 400px;
     display: flex;
@@ -138,12 +136,12 @@ section {
     animation: sparkleStars 3s ease-in-out infinite;
 }
 
- .star2 {
+.star2 {
     background: url("../../assets/img/magic/star2.png");
     animation: sparkleStars 4s ease-in-out infinite;
 }
- 
- .star3 {
+
+.star3 {
     background: url("../../assets/img/magic/star3.png");
     animation: sparkleStars 5s ease-in-out infinite;
 }
@@ -160,7 +158,7 @@ section {
 
 .star6 {
     background: url("../../assets/img/magic/star6.png");
-    animation: sparkleStars 8s ease-in-out infinite,
+    animation: sparkleStars 8s ease-in-out infinite;
 }
 
 @keyframes sparkleStars {
@@ -173,10 +171,10 @@ section {
     40% {
         opacity: 0;
     }
-    60%{
+    60% {
         opacity: 0;
     }
-    80%{
+    80% {
         opacity: 0;
     }
     100% {
@@ -185,7 +183,7 @@ section {
     10% {
         opacity: 1;
     }
-    30%{
+    30% {
         opacity: 1;
     }
     50% {
@@ -199,12 +197,24 @@ section {
     }
 }
 
-
 @keyframes backgroundmove {
-    0%{
+    0% {
         transform: scale(0.5);
     }
-    100%{
+    100% {
         transform: scal(1);
+    }
+}
+
+//Responsive
+
+@media (max-width: 1400px) {
+    .portfolio-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .btn-project {
+        margin-top: 165px;
     }
 }

@@ -48,3 +48,22 @@ p {
 
 //Responsive Design about-me component
 
+@media(max-width: 1400px) {
+
+.about-me-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-square {
+    right: 220px;
+    top: 850px;
+}
+
+.saying {
+    top: 910px;
+    right: 260px;
+}
+
+
+}
