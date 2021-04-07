@@ -30,10 +30,26 @@
 
 .img-square {
     width: 230px;
-    top: 820px;
+    top: 1160px;
     right: 380px;
 }
 
+
+
+.saying {
+    font-size: 30px;
+    top: 1220px;
+    right: 423px;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    transition: 0.5s;
+    letter-spacing: 3px;
+
+    &:hover {
+        color: #fffc87;
+        text-shadow: 0 0 10px #fffc87, 0 0 40px #fffc87, 0 0 80px #fffc87;
+    }
+}
 .square-saying {
     background-image: url('/assets/img/square-yellow.png');
     object-fit: cover; 
@@ -74,8 +90,10 @@
     margin-top: 60px; 
     background-image: url('../../assets/img/code-4333398_1280.jpg');
     background-size: cover; 
-    height: 450px;
+    height: 500px;
     width: 100vw;
+    display: flex;
+    align-items: center;
 }
 
 .skills-input {
@@ -97,9 +115,9 @@
 }
 
 .skill-img-container {
-    width: 35%;
-    margin-bottom: 100px;
+    width: 65%;
     flex-wrap: wrap;
+    margin-top: 2rem;
 
      img {
         width: 70px;
@@ -107,10 +125,6 @@
         margin-right: 25px;
         margin-bottom: 25px;
     } 
-}
-
-h2 {
-    padding-top: 35px; 
 }
 
 p {

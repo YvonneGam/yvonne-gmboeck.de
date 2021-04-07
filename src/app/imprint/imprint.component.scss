@@ -1,17 +1,20 @@
 .imprint {
-    margin-top: 40px; 
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     flex-direction: column;
-   text-align: center;
+    text-align: center;
 
     a {
         text-decoration: none;
-        color:#e3e9ec;
+        color: #e3e9ec;
 
         &:hover {
             color: #fffc87;
         }
     }
+}
+
+h1 {
+    margin-top: 140px;
 }
 
 h3 {

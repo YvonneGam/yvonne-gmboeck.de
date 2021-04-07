@@ -1,4 +1,4 @@
-<div class="startscreen d-flex">
+<div id="startscreen" class="startscreen d-flex">
   <div class="startscreen-main d-flex">
     <div class="startscreen-font light-gray">
       <div *ngIf="showText" class="yellow greeting"> {{greetings[currentText]}} <br> </div>
@@ -9,13 +9,13 @@
     <img class="startscreen-logo" src="assets/img/logo-vorab.png">
   </div>
   <div class="arrow-container d-flex" style="margin-top: -180px">
-    <a href="#about-me"><img class="arrow" src="assets/img/arrow-down.png"></a> 
+    <a href="#about-me"><img class="arrow arrow-animation" src="assets/img/arrow-down.png"></a> 
   </div>
 </div>
 
 
 
-<a href="#menu"><img class="arrow-up" src="assets/img/arrow-down.png"></a>
+<a href="#startscreen"><img class="arrow-up" src="assets/img/arrow-down.png"></a>
 
 <app-about-me></app-about-me>
 <app-skills></app-skills>
