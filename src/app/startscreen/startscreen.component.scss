@@ -4,33 +4,34 @@ body {
 }
 
 .startscreen {
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
     flex-direction: column;
-    align-items: center;
+    height: 100vh; 
 }
 
 .startscreen-main {
     justify-content: space-between;
     align-items: center;
+    height: 100vh;
+    margin-top: -40px;
 }
 
 .startscreen-font {
     font-family: "Prata", serif;
-    font-size: 110px;
+    font-size: 140px;
+    margin-top: -80px;
 }
 
 .job-designation {
-    font-size: 26px;
+    font-size: 32px;
     margin-top: 30px;
     font-weight: 100;
 }
 
 .startscreen-logo {
     width: 400px;
-    margin-left: 60px;
-    right: 60px;
+    margin-top: -80px;
 }
 
 span {
@@ -59,4 +60,18 @@ span {
         top: 300px;
         right: 50px;
     }
+
+    .startscreen {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .startscreen-font {
+       font-size: 98px;
+    }
+
+    .job-designation {
+        font-size: 26px;
+    }
 }
+
