@@ -2,8 +2,8 @@
 
 ########### CONFIG ###############
 
-$recipient = ' yvonnegamboeck@web.de ';
-/* $redirect = 'success.html'; */
+$recipient = 'yvonnegamboeck@web.com';
+$redirect = 'index.html';
 
 ########### CONFIG END ###########
 

@@ -1,6 +1,7 @@
 body {
     color: #e3e9ec;
     padding-left: 40px;
+    width: 100vw; 
 }
 
 .startscreen {
@@ -67,10 +68,57 @@ span {
 
     .startscreen-font {
        font-size: 98px;
+       margin-top: 0px;
+    }
+
+    .startscreen-logo {
+        margin-top: 0px;
     }
 
     .job-designation {
         font-size: 26px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    .startscreen-font {
+        font-size: 96px;
+     }
+
+     .startscreen-logo {
+        width: 360px;
+    }
+
+    .img-square {
+        top: 1200px;
+    }
+
+    .saying {
+        top: 1200px;
+    }
+}
+
+@media (max-width: 1105px) {
+    .startscreen-font {
+        font-size: 94px;
+     }
+
+    .startscreen-logo {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .startscreen-logo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 930px) {
+    .startscreen-logo {
+        width: 260px;
     }
 }
 

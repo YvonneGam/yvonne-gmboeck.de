@@ -1,3 +1,7 @@
+.body {
+    width: 100vw;
+}
+
 .portfolio-container {
     margin-left: 15%;
     margin-right: 15%;
@@ -216,5 +220,32 @@ section {
 
     .btn-project {
         margin-top: 165px;
+    }
+}
+
+@media (max-width: 1105px) {
+    .btn-project {
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .project-box {
+        width: 45%;
+    }
+    .btn-project {
+        margin-top: 220px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .btn-project {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 930px) {
+    .btn-project {
+        margin-top: 180px;
     }
 }

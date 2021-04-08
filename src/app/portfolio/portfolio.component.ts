@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-   name = "Angular " ;
+   /* name = "Angular " +; VERSION.major;  */
   isInViewPort = false;
   portfolio!: HTMLElement;
 

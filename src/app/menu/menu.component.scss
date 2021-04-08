@@ -7,7 +7,7 @@ header {
     top: 0;
 
     a {
-        color:  #fffc87;
+        color:  #e3e9ec;
         text-decoration: none;
         justify-content: space-between;
         transition: all 0.8s;
@@ -15,13 +15,14 @@ header {
         margin-left: 8px;
 
         &:hover {
-            color: #e3e9ec;
+            color: #fffc87;
         }
     }
 }
 
 .header-container {
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
@@ -31,4 +32,12 @@ header {
     img {
         width: 50px;
     }
+}
+
+@media (max-width: 1400px) {
+
+    .header-container {
+        margin-left: 10%;
+        margin-right: 10%;
+}
 }

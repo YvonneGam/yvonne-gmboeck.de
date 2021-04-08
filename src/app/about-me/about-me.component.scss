@@ -1,5 +1,6 @@
 .body {
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 .about-me-container {
@@ -79,7 +80,46 @@
     right: 260px;
 }
 
+}
 
+@media(max-width: 1105px) {
+    .img-square {
+        top: 1230px;
+    }
+
+    .saying {
+      top:  1285px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .saying {
+        font-size: 26px;
+        top: 1312px;
+        right: 255px; 
+    }
+
+    .img-square {
+        width: 200px;
+        top: 1255px;
+    }
+}
+
+
+@media (max-width: 930px) {
+    .img-me {
+        width: 200px;
+    }
+
+    .img-square {
+        right: 190px;
+        top: 1270px;
+    }
+
+    .saying {
+        right: 225px;
+        top: 1323px;
+    }
 }
 
 
@@ -251,8 +291,7 @@ p {
 //Responsive
 
 @media(max-width: 1400px) {
-
-    .skill-input {
+    .skills-input {
         margin-left: 10%;
         margin-right: 10%; 
     }
