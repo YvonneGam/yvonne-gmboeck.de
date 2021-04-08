@@ -1,14 +1,14 @@
 body {
     color: #e3e9ec;
     padding-left: 40px;
-    width: 100vw; 
+    width: 100vw;
 }
 
 .startscreen {
     margin-left: 15%;
     margin-right: 15%;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .startscreen-main {
@@ -67,8 +67,8 @@ span {
     }
 
     .startscreen-font {
-       font-size: 98px;
-       margin-top: 0px;
+        font-size: 98px;
+        margin-top: 0px;
     }
 
     .startscreen-logo {
@@ -78,16 +78,14 @@ span {
     .job-designation {
         font-size: 26px;
     }
-
 }
-
 
 @media (max-width: 1200px) {
     .startscreen-font {
         font-size: 96px;
-     }
+    }
 
-     .startscreen-logo {
+    .startscreen-logo {
         width: 360px;
     }
 
@@ -103,7 +101,7 @@ span {
 @media (max-width: 1105px) {
     .startscreen-font {
         font-size: 94px;
-     }
+    }
 
     .startscreen-logo {
         width: 320px;
@@ -122,3 +120,88 @@ span {
     }
 }
 
+@media (max-width: 876px) {
+    .job-designation {
+        width: 54%;
+    }
+}
+
+@media (max-width: 850px) {
+    .job-designation {
+        width: 60%;
+    }
+
+    .arrow-up {
+        right: 24px;
+    }
+}
+
+
+@media (max-width: 808px) {
+    .job-designation {
+        width: 70%;
+    }
+
+    .startscreen-logo {
+        width: 240px;
+    }
+}
+
+@media (max-width: 808px) {
+    .img-square{
+        right: 160px;
+    }
+}
+
+@media (max-width: 780px) {
+    .startscreen-font {
+        font-size: 90px;
+    }
+
+    .job-designation {
+       font-size: 24px;
+    }
+
+    .arrow-up {
+        right: 15px; 
+    }
+}
+
+@media (max-width: 728px) {
+    .startscreen-font {
+        font-size: 85px;
+    }
+
+    .startscreen-logo {
+        width: 220px;
+    }
+    .job-designation {
+        font-size: 22px;
+     }
+}
+
+
+@media (max-width: 728px) {
+    .startscreen-font {
+        font-size: 82px;
+    }
+    .startscreen-logo {
+        width: 200px;
+    }
+}
+
+@media (max-width: 650px) {
+    .startscreen {
+        margin-left: 8% !important;
+        margin-right: 8% !important;
+    }
+
+    .startscreen-logo {
+        width: 180px;
+    }
+
+    .arrow-up {
+        right: 5px; 
+    }
+
+}

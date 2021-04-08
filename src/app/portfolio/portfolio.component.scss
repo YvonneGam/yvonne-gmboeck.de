@@ -249,3 +249,29 @@ section {
         margin-top: 180px;
     }
 }
+
+
+@media (max-width: 876px) {
+    .btn-project {
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 830px) {
+    .magic{
+        width: 400px;
+    }
+}
+
+@media (max-width: 780px) {
+    .btn-project {
+        margin-top: 140px; 
+    }
+}
+
+@media (max-width: 650px) {
+    .btn-project {
+        margin-top: 115px;
+    }
+
+}

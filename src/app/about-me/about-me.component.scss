@@ -15,8 +15,7 @@
 .text-about {
     font-size: 0.9rem;
     margin-bottom: 75px;
-    line-height: 1.2rem; 
-    
+    line-height: 1.2rem;
 }
 
 .about-me-text {
@@ -35,8 +34,6 @@
     right: 380px;
 }
 
-
-
 .saying {
     font-size: 30px;
     top: 1220px;
@@ -52,51 +49,48 @@
     }
 }
 .square-saying {
-    background-image: url('/assets/img/square-yellow.png');
-    object-fit: cover; 
+    background-image: url("/assets/img/square-yellow.png");
+    object-fit: cover;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 //Responsive Design about-me component
 
-@media(max-width: 1400px) {
+@media (max-width: 1400px) {
+    .about-me-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
-.about-me-container {
-    margin-left: 10%;
-    margin-right: 10%;
+    .img-square {
+        right: 220px;
+        top: 850px;
+    }
+
+    .saying {
+        top: 910px;
+        right: 260px;
+    }
 }
 
-.img-square {
-    right: 220px;
-    top: 850px;
-}
-
-.saying {
-    top: 910px;
-    right: 260px;
-}
-
-}
-
-@media(max-width: 1105px) {
+@media (max-width: 1105px) {
     .img-square {
         top: 1230px;
     }
 
     .saying {
-      top:  1285px;
+        top: 1285px;
     }
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
     .saying {
         font-size: 26px;
         top: 1312px;
-        right: 255px; 
+        right: 255px;
     }
 
     .img-square {
@@ -104,7 +98,6 @@
         top: 1255px;
     }
 }
-
 
 @media (max-width: 930px) {
     .img-me {
@@ -122,14 +115,12 @@
     }
 }
 
-
-
 //Skills
 
 .skills-container {
-    margin-top: 60px; 
-    background-image: url('../../assets/img/code-4333398_1280.jpg');
-    background-size: cover; 
+    margin-top: 60px;
+    background-image: url("../../assets/img/code-4333398_1280.jpg");
+    background-size: cover;
     height: 500px;
     width: 100vw;
     display: flex;
@@ -144,7 +135,7 @@
 .background-img {
     position: absolute;
     left: 0px;
-    right: 0px; 
+    right: 0px;
     height: 500px;
     width: 100%;
     object-fit: cover;
@@ -159,140 +150,248 @@
     flex-wrap: wrap;
     margin-top: 2rem;
 
-     img {
+    img {
         width: 70px;
         height: 70px;
         margin-right: 25px;
         margin-bottom: 25px;
-    } 
+    }
 }
 
 p {
     color: #e3e9ec;
     text-align: center;
-    font-size: 12.5px; 
+    font-size: 12.5px;
     font-weight: bold;
 }
 
-
 .icon-bu {
     margin-right: 25px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
-
 
 .imgLink-angular {
-    background: url('../../assets/img/angular-original.png');
-    background-size:cover;
+    background: url("../../assets/img/angular-original.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
-
 .imgLink-js {
-    background-image: url('../../assets/img/JavaScript-original.png');
-    background-size:cover;
+    background-image: url("../../assets/img/JavaScript-original.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
 .imgLink-css {
-    background-image: url('../../assets/img/CSS-original.png');
-    background-size:cover;
+    background-image: url("../../assets/img/CSS-original.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
 .imgLink-html {
-    background-image: url('../../assets/img/HTML-original.png');
-    background-size:cover;
+    background-image: url("../../assets/img/HTML-original.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
-
 .imgLink-id {
-    background: url('../../assets/img/InDesign-original.png');
-    background-size:cover;
+    background: url("../../assets/img/InDesign-original.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
 .imgLink-ps {
-    background-image: url('../../assets/img/Photoshop-originl.png');
-    background-size:cover;
+    background-image: url("../../assets/img/Photoshop-originl.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
 .imgLink-ai {
-    background-image: url('../../assets/img/Illustrator-original.png');
-    background-size:cover;
+    background-image: url("../../assets/img/Illustrator-original.png");
+    background-size: cover;
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
     display: block;
 
-     &:hover {
+    &:hover {
         img {
-            display: none; 
+            display: none;
         }
-    } 
+    }
 }
 
 //Responsive
 
-@media(max-width: 1400px) {
+@media (max-width: 1400px) {
     .skills-input {
         margin-left: 10%;
-        margin-right: 10%; 
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 850px) {
+    .text-about {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .img-square {
+        right: 180px;
+    }
+
+    .saying {
+        right: 215px;
+    }
+
+    .magic {
+        width: 400px;
+    }
+}
+
+@media (max-width: 780px) {
+    .img-me {
+        width: 180px;
+        height: 250px;
+    }
+
+    .img-square {
+        width: 180px;
+        top: 1288px;
+        right: 170px;
+    }
+
+    .saying {
+        right: 198px;
+        top: 1333px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 728px) {
+    .img-me {
+        width: 160px;
+        height: 230px;
+    }
+
+    .about-me-text {
+        width: 55%;
+    }
+
+    .img-square {
+        width: 160px;
+        top: 1288px;
+        right: 145px;
+    }
+
+    .saying {
+        right: 170px;
+        top: 1333px;
+        font-size: 21px;
+    }
+
+    .skill-img-container {
+        width: 75%;
+    }
+
+    .skills-container {
+        height: 400px;
+    }
+}
+
+@media (max-width: 728px) {
+    .about-me-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-me-text {
+        width: 95%;
+    }
+
+    .img-me {
+        width: 220px;
+        height: 250px;
+    }
+
+    .img-square {
+        width: 180px;
+        right: 260px;
+        top: 1280px;
+    }
+
+    .saying {
+        font-size: 24px;
+        right: 290px;
+        top: 1329px;
+    }
+
+    .btn {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .text-about {
+        margin-bottom: 40px; 
+    }
+
+    .img-me {
+        width: 180px;
+        height: 230px;
     }
 }
