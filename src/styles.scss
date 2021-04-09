@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    height: 100%; //
+    margin: 0; //
 }
 
 
@@ -7,6 +9,18 @@ body {
     margin: 0;
     background-color: #003e4a;
     scroll-behavior: smooth;
+    height: 100%; 
+    margin: 0; 
+}
+
+.main-root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+app-footer {
+    margin-top: auto;
 }
 
 ///////////////////////////

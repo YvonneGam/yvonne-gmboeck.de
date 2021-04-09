@@ -23,3 +23,33 @@ li {
 h4 {
     margin-top: 30px; 
 }
+
+
+@media (max-width: 1400px) {
+
+    .data-protection {
+        margin-left: 10%;
+        margin-right: 10%;
+}
+}
+
+@media (max-width: 1000px) {
+    p {
+        font-size: 13px;
+        word-wrap: break-word; 
+    }
+    li {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.6rem;
+        word-wrap: break-word; 
+    } 
+}
