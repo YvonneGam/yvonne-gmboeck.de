@@ -1,6 +1,7 @@
 body {
     margin: 0;
     width: 100vw;
+    margin-top: auto; 
 }
 
 .footer-container {
@@ -16,6 +17,7 @@ body {
         font-weight: bold;
         font-family: 'Parisienne', cursive;
         font-size: 25px;
+        margin-top: 5px;
     }
 }
 
@@ -49,4 +51,38 @@ body {
         img {
             width: 40px;
         }
+}
+
+@media (max-width: 580px) {
+    .footer-container {
+        font-size: 13px;
+    }  
+
+    p {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 475px) {
+    .footer-rights {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        line-height: 23px;;
+    }
+
+    .footer-links {
+        margin-left: 0px; 
+    }
+
+}
+
+@media (max-width: 400px) {
+    .github-img{
+        img{
+            width: 35px; 
+        }
+    }
+
 }

@@ -121,7 +121,7 @@ h3 {
 section {
     position: relative;
     margin-left: 0px !important;
-    width: 100%;
+    width: 100vw;
     height: 400px;
     display: flex;
 
@@ -129,7 +129,8 @@ section {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
+        right: 0;
+        width: 100%;
         min-height: 400px;
         pointer-events: none;
     }
@@ -250,7 +251,6 @@ section {
     }
 }
 
-
 @media (max-width: 876px) {
     .btn-project {
         margin-top: 160px;
@@ -258,14 +258,14 @@ section {
 }
 
 @media (max-width: 830px) {
-    .magic{
+    .magic {
         width: 400px;
     }
 }
 
 @media (max-width: 780px) {
     .btn-project {
-        margin-top: 140px; 
+        margin-top: 140px;
     }
 }
 
@@ -273,5 +273,84 @@ section {
     .btn-project {
         margin-top: 115px;
     }
+}
 
+@media (max-width: 580px) {
+    .btn-project {
+        margin-top: 105px;
+        padding: 11px 18px;
+    }
+    .magic {
+        font-size: 2.6rem;
+        width: 360px;
+    }
+
+    .startscreen-logo {
+        width: 160px;
+    }
+
+    .startscreen-font {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-box {
+        width: 100%;
+    }
+
+    .btn-project {
+        margin-top: 180px;
+    }
+
+    section {
+        height: 300px;
+
+        .star {
+            min-height: 300px;
+        }
+    }
+
+    .saying-magic-container {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 475px) {
+    .magic {
+        font-size: 2.3rem;
+        width: 340px;
+    }
+    section {
+        height: 270px;
+
+        .star {
+            min-height: 270px;
+        }
+    }
+    .project-box {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .magic {
+        font-size: 2rem;
+        width: 70%;
+    }
+    section {
+        height: 240px;
+
+        .star {
+            min-height: 240px;
+        }
+    }
+    .project-box {
+        height: 220px;
+    }
+
+    .btn-project {
+        margin-top: 150px;
+    }
 }

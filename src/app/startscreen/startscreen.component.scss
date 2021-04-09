@@ -136,7 +136,6 @@ span {
     }
 }
 
-
 @media (max-width: 808px) {
     .job-designation {
         width: 70%;
@@ -148,7 +147,7 @@ span {
 }
 
 @media (max-width: 808px) {
-    .img-square{
+    .img-square {
         right: 160px;
     }
 }
@@ -159,11 +158,11 @@ span {
     }
 
     .job-designation {
-       font-size: 24px;
+        font-size: 24px;
     }
 
     .arrow-up {
-        right: 15px; 
+        right: 15px;
     }
 }
 
@@ -177,9 +176,8 @@ span {
     }
     .job-designation {
         font-size: 22px;
-     }
+    }
 }
-
 
 @media (max-width: 728px) {
     .startscreen-font {
@@ -201,7 +199,95 @@ span {
     }
 
     .arrow-up {
-        right: 5px; 
+        right: 5px;
+    }
+}
+
+@media (max-width: 635px) {
+    .arrow-up {
+        right: 15px;
+    }
+}
+
+@media (max-width: 605px) {
+    .startscreen-font {
+        font-size: 75px;
     }
 
+    .btn-project {
+        margin-top: 115px !important;
+        font-size: 12px !important;
+        padding: 11px !important;
+    }
+
+    .arrow-up {
+        height: 50px;
+        right: 10px;
+    }
 }
+
+@media (max-width: 500px) {
+    .startscreen-main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .startscreen-font {
+        transform: translateY(140px);
+        width: 95%;
+        font-size: 85px;
+    }
+
+    .job-designation {
+        width: 60%;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .startscreen-logo {
+        transform: translateY(-125px);
+        width: 120px;
+    }
+    .arrow-up {
+        right: 12px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .startscreen-font {
+        font-size: 80px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+    .job-designation {
+        width: 90%;
+    }
+    .startscreen-logo {
+        transform: translateY(-140px);
+    }
+}
+
+@media (max-width: 370px) {
+    .startscreen-font {
+        font-size: 70px;
+    }
+
+    .job-designation {
+        font-size: 20px; 
+    }
+
+    .startscreen-logo {
+        transform: translateY(-180px);
+    }
+
+    .arrow {
+        width: 40px;
+    }
+    .arrow-up {
+        right: 15px;
+        height: 40px; 
+    }
+}
+
