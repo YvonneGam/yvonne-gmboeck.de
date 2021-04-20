@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
    /* name = "Angular " +; VERSION.major;  */
-  isInViewPort = false;
-  portfolio!: HTMLElement;
+/*   isInViewPort = false;
+  portfolio!: HTMLElement; */
 
   constructor() { }
 
   ngOnInit(): void {
-    const portfolio = document.getElementById("portfolio");
+/*     const portfolio = document.getElementById("portfolio");
     console.log(this.portfolio);
 
     window.addEventListener("scroll", () => {
@@ -25,7 +25,7 @@ export class PortfolioComponent implements OnInit {
         //   console.log("Ziel erreicht");
         // }, false);
       }
-    });
+    }); */
   }
 }
 

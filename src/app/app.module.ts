@@ -24,7 +24,7 @@ import { ContactComponent } from './contact/contact.component';
     SkillsComponent,
     ImprintComponent,
     DataProtectionComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

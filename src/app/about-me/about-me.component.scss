@@ -121,7 +121,6 @@
     background-image: url("../../assets/img/code-4333398_1280.jpg");
     background-size: cover;
     height: 500px;
-/*     width: 100vw; */
     display: flex;
     align-items: center;
 }
@@ -170,7 +169,7 @@ p {
 }
 
 .imgLink-angular {
-    background: url("../../assets/img/angular-original.png");
+    background: url("/assets/img/angular-original.png");
     background-size: cover;
     width: 70px;
     height: 70px;
@@ -185,7 +184,7 @@ p {
 }
 
 .imgLink-js {
-    background-image: url("../../assets/img/JavaScript-original.png");
+    background-image: url("/assets/img/JavaScript-original.png");
     background-size: cover;
     width: 70px;
     height: 70px;
@@ -200,7 +199,7 @@ p {
 }
 
 .imgLink-css {
-    background-image: url("../../assets/img/CSS-original.png");
+    background-image: url("/assets/img/CSS-original.png"); //("../../assets/img/CSS-original.png")
     background-size: cover;
     width: 70px;
     height: 70px;
@@ -215,7 +214,7 @@ p {
 }
 
 .imgLink-html {
-    background-image: url("../../assets/img/HTML-original.png");
+    background-image: url("/assets/img/HTML-original.png");
     background-size: cover;
     width: 70px;
     height: 70px;
@@ -230,7 +229,7 @@ p {
 }
 
 .imgLink-id {
-    background: url("../../assets/img/InDesign-original.png");
+    background: url("/assets/img/InDesign-original.png");
     background-size: cover;
     width: 70px;
     height: 70px;
@@ -245,7 +244,7 @@ p {
 }
 
 .imgLink-ps {
-    background-image: url("../../assets/img/Photoshop-originl.png");
+    background-image: url("/assets/img/Photoshop-originl.png");
     background-size: cover;
     width: 70px;
     height: 70px;
@@ -260,7 +259,7 @@ p {
 }
 
 .imgLink-ai {
-    background-image: url("../../assets/img/Illustrator-original.png");
+    background-image: url("/assets/img/Illustrator-original.png");
     background-size: cover;
     width: 70px;
     height: 70px;
