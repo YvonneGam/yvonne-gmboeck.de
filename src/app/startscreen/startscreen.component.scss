@@ -30,7 +30,7 @@ body {
 }
 
 .startscreen-logo {
-    width: 380px;
+    width: 330px;
     margin-top: -120px;
 }
 
@@ -55,7 +55,16 @@ span {
 
 //Responsive
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
+    .startscreen-logo {
+        width: 290px;
+    }
+    .startscreen-font {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 1450px) {
     .arrow-up {
         top: 300px;
         right: 50px;
@@ -73,6 +82,7 @@ span {
 
     .startscreen-logo {
         margin-top: 0px;
+        width: 260px;
     }
 
     .job-designation {
@@ -83,10 +93,6 @@ span {
 @media (max-width: 1200px) {
     .startscreen-font {
         font-size: 96px;
-    }
-
-    .startscreen-logo {
-        width: 360px;
     }
 
     .img-square {
@@ -108,9 +114,9 @@ span {
     }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1095px) {
     .startscreen-logo {
-        width: 300px;
+        width: 220px;
     }
 }
 
@@ -214,6 +220,10 @@ span {
         font-size: 75px;
     }
 
+    .startscreen-logo {
+        width: 130px;
+    }
+
     .btn-project {
         margin-top: 115px !important;
         font-size: 12px !important;
@@ -233,7 +243,7 @@ span {
     }
 
     .startscreen-font {
-        transform: translateY(140px);
+        transform: translateY(180px);
         width: 95%;
         font-size: 85px;
     }
@@ -287,6 +297,17 @@ span {
     .arrow-up {
         right: 15px;
         height: 40px; 
+    }
+}
+
+@media (max-width: 350px) {
+   .job-designation {
+        width: 100%;
+    }
+
+    .arrow {
+        width: 40px;
+        margin-top: 100px;
     }
 }
 
