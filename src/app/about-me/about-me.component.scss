@@ -21,6 +21,14 @@
     width: 50%;
 }
 
+
+.anchor {
+    top: -70px;
+    visibility: hidden;
+    display: block;
+    position: relative;
+}
+
 .img-me {
     width: 220px;
     height: 300px;
@@ -55,6 +63,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 //Responsive Design about-me component
 
@@ -272,6 +281,7 @@ p {
         }
     }
 }
+
 
 //Responsive
 

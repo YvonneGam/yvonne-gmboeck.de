@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-startscreen',
@@ -9,6 +9,7 @@ export class StartscreenComponent implements OnInit {
   greetings = ['Hi,', 'Servus,'];
   currentText = 0;
   showText = true;
+  scrolled = false;
 
 
 
@@ -34,6 +35,14 @@ export class StartscreenComponent implements OnInit {
   }
 
   constructor() { }
+
+
+ //stackoverflow.com/questions/58446080/how-to-make-component-disappear-when-scroll-down-in-angular
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll($event: { srcElement: { scrollTop: number; }; }) {
+      this.scrolled = $event.srcElement.scrollTop <= 50;
+  }
 
 
 }
