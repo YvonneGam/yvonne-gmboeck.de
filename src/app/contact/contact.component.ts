@@ -2,18 +2,22 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
 })
+
 export class ContactComponent implements OnInit {
   greetings = ['Hi,', 'Servus,'];
   currentText = 0;
   showText = true;
-
   endpoint = 'http://yvonne-gamboeck.developerakademie.com/yvonne-gamboeck/assets/send_mail.php';
 
+messageSend = false; 
+
+  //for form
   profileForm = new FormGroup({
     name: new FormControl('', Validators.required),
     email: new FormControl('', Validators.required),
@@ -27,6 +31,7 @@ export class ContactComponent implements OnInit {
 console.log('message', this.profileForm);
 
   }
+
 
   submit() {
     // TODO: Use EventEmitter with form value
@@ -46,7 +51,6 @@ console.log('message', this.profileForm);
   }
 
 
-
   /**
    * Changes the greeting-text on init every 8seconds
    */
@@ -64,25 +68,21 @@ console.log('message', this.profileForm);
     }, 4000);
   }
 
+
+
   /**
    * add a snackbar when the mail is sent
    */
-/*   addSnackBar() {
-    console.log('snackbar');
-    // Get the snackbar DIV
-  this x = document.getElementById('snackbar');
+openSnackbar() {
+this.messageSend = true; 
+console.log('message', this.messageSend);
+document.getElementById('snackbar')?.classList.add('show');
 
-    // Add the "show" class to DIV
-    x.className = "show";
-
-    // After 3 seconds, remove the show class from DIV
-    setTimeout(() => {
-      x.className = x.className.replace("show", "");
-    }, 4000);
-  } 
- */
-
-
-  
-
+setTimeout(() => { //snackbar is only visible for 2.500 ms
+  document.getElementById('snackbar')?.classList.remove('show');
+}, 2500);
 }
+
+
+
+}//last brace

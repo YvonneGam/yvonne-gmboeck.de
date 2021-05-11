@@ -8,8 +8,7 @@
     font-size: 5.6rem;
     font-family: "Prata", serif;
     letter-spacing: 4px;
-    margin-top: 140px; 
-
+    margin-top: 140px;
 }
 
 form {
@@ -65,14 +64,13 @@ textarea {
     }
 }
 
-
 /* The snackbar - position it at the bottom and in the middle of the screen */
 
 .snackbar {
-  visibility: hidden; //muss unbedingt wieder hinzugefügt werden wegen JS!!!
+    visibility: hidden; ///muss unbedingt wieder hinzugefügt werden wegen JS!!!
     background-color: #ff665a;
     color: #e3e9ec;
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
     font-weight: bolder;
     text-align: center;
     padding: 40px;
@@ -81,18 +79,16 @@ textarea {
     z-index: 1;
     bottom: 150px;
     font-family: "Montserrat", sans-serif;
+}
 
-    /* Show the snackbar when clicking on a button (class added with JavaScript) */
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
 .show {
     visibility: visible;
     /* -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; */
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
-}
 
 /* Animations to fade the snackbar in and out */
-
-
 @keyframes fadein {
     from {
         bottom: 0;
@@ -103,7 +99,6 @@ textarea {
         opacity: 1;
     }
 }
-
 
 @keyframes fadeout {
     from {
@@ -116,33 +111,30 @@ textarea {
     }
 }
 
-
 @media (max-width: 728px) {
+    .contact-font {
+        font-size: 4.8rem;
+    }
 
-.contact-font {
-    font-size: 4.8rem; 
-}
-
-form {
-    width: 70%;
-}
+    form {
+        width: 70%;
+    }
 }
 
 @media (max-width: 580px) {
     .contact-font {
-        font-size: 4.2rem; 
+        font-size: 4.2rem;
     }
 }
 
-
 @media (max-width: 500px) {
     .contact-font {
-        font-size: 3.6rem; 
+        font-size: 3.6rem;
     }
 }
 @media (max-width: 420px) {
     .contact-font {
-        font-size: 3.2rem; 
+        font-size: 3.2rem;
     }
 
     [type="submit"] {
@@ -152,17 +144,16 @@ form {
 
 @media (max-width: 400px) {
     .contact-font {
-        font-size: 3rem; 
+        font-size: 3rem;
     }
 }
 
-
 @media (max-width: 370px) {
     .contact-font {
-        font-size: 2.6rem; 
+        font-size: 2.6rem;
     }
 
     form {
-        width: 80%; 
+        width: 80%;
     }
 }

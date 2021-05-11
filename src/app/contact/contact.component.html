@@ -11,10 +11,8 @@
             <input formControlName="name" type="text" class="feedback-input montserrat" placeholder="Name*" required/>
             <input formControlName="email" type="text" class="feedback-input montserrat" placeholder="Email*" required/>
             <textarea formControlName="message" type="text" class="feedback-input montserrat" placeholder="Your message*" required></textarea>
-           <button type="submit" [disabled]="!profileForm.valid">Submit </button>
+           <button (click)="openSnackbar()" type="submit" [disabled]="!profileForm.valid">Submit </button>
         </form>
-
-
 
         <div class="snackbar" id="snackbar">Thanks for your message</div>
 
