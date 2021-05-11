@@ -11,7 +11,7 @@ export class ContactComponent implements OnInit {
   greetings = ['Hi,', 'Servus,'];
   currentText = 0;
   showText = true;
-  x = '';
+
   endpoint = 'http://yvonne-gamboeck.developerakademie.com/yvonne-gamboeck/assets/send_mail.php';
 
   profileForm = new FormGroup({
@@ -26,7 +26,6 @@ export class ContactComponent implements OnInit {
     this.changeGreetings();
 console.log('message', this.profileForm);
 
-/*     this.addSnackBar(); */
   }
 
   submit() {
@@ -64,16 +63,14 @@ console.log('message', this.profileForm);
 
     }, 4000);
   }
-}
-
 
   /**
    * add a snackbar when the mail is sent
    */
- /*  addSnackBar() {
+/*   addSnackBar() {
     console.log('snackbar');
     // Get the snackbar DIV
-    let x = document.getElementById('snackbar');
+  this x = document.getElementById('snackbar');
 
     // Add the "show" class to DIV
     x.className = "show";
@@ -82,4 +79,10 @@ console.log('message', this.profileForm);
     setTimeout(() => {
       x.className = x.className.replace("show", "");
     }, 4000);
-  } */
+  } 
+ */
+
+
+  
+
+}
