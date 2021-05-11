@@ -207,13 +207,15 @@ h2 {
     }
 
     .arrow-up {
-        right: 5px;
+        right: 12px;
+        width: 50px;
     }
 }
 
 @media (max-width: 500px) {
     .arrow-up {
-        right: 12px;
+        width:40px;
+        height:45px;
     }
 }
 
@@ -222,7 +224,8 @@ h2 {
         width: 40px; 
     }
     .arrow-up {
-        right: 15px;
+        right: 10px;
         height: 40px; 
+        width:35px;
     }
 }
