@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
   currentText = 0;
   showText = true;
   x = '';
-  endpoint = 'https://yvonne-gamboeck.developerakademie.com/assets/send_mail.php';
+  endpoint = 'http://yvonne-gamboeck.developerakademie.com/yvonne-gamboeck/assets/send_mail.php';
 
   profileForm = new FormGroup({
     name: new FormControl('', Validators.required),

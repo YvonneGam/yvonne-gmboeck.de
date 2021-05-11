@@ -10,7 +10,7 @@
         <form [formGroup]="profileForm" (ngSubmit)="submit ()" class="slide-animation">
             <input formControlName="name" type="text" class="feedback-input montserrat" placeholder="Name*" required/>
             <input formControlName="email" type="text" class="feedback-input montserrat" placeholder="Email*" required/>
-            <textarea formControlName="text" type="text" class="feedback-input montserrat" placeholder="Your message*" required></textarea>
+            <textarea formControlName="message" type="text" class="feedback-input montserrat" placeholder="Your message*" required></textarea>
            <button type="submit" [disabled]="!profileForm.valid">Submit </button>
         </form>
 
