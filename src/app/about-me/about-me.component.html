@@ -1,5 +1,7 @@
-<div>
-<a class="anchor about-me-container" id="aboutMe" [class.slide-animation]="isInViewPort"></a> 
+
+<a href="#startscreen" id="arrow"><img [class.visibility]="isInViewPort" class="arrow-up" src="assets/img/arrow-down.png"></a>
+<div [class.slide-animation]="isInViewPort">
+<a class="anchor about-me-container" id="aboutMe"></a> 
 
 <div class="about-me-container">
 
@@ -28,6 +30,7 @@
 
 </div>
 </div>
+
 
 
 <img class="img-square absolute" src="assets/img/square-yellow.png">

@@ -1,6 +1,6 @@
 <div>
     <a class="anchor portfolio-container" id="portfolio"></a>
-    <div class="portfolio-container">
+    <div class="portfolio-container" [class.slide-animation]="isInViewPort">
          
 
         <h2 style="margin-bottom: 10px">Projects</h2>
@@ -21,7 +21,7 @@
 
             <div class="project-box d-flex">
                 <a class="imgLink-RingofFire"> <img src="assets/img/projects/RingOfFire-Screen.png"></a>
-                <a href="http://yvonne-gamboeck.developerakademie.com/Join/" target="_blank"
+                <a href="http://yvonne-gamboeck.developerakademie.com/ringoffire" target="_blank"
                     class="btn-project montserrat">Check it out</a>
             </div>
 
@@ -37,7 +37,8 @@
                     class="btn-project montserrat">Check it out</a>
             </div>
 
-            <div class="project-box">
+            <div class="project-box d-flex">
+               <img src="assets/img/projects/background-mockup.png">
             </div>
 
 

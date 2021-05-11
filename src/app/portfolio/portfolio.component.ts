@@ -6,13 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-/*   name = "Angular ";
+  name = "Angular ";
   isInViewPort = false;
-  portfolio!: HTMLElement; */
+  portfolio!: any;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.portfolio = document.getElementById("portfolio");
+    console.log(this.portfolio);
+
+    window.addEventListener("scroll", () => {
+      let rect = this.portfolio.getBoundingClientRect();
+      console.log(rect, window.innerHeight);
+
+      if (rect.y >= 0 && rect.y <= window.innerHeight) {
+        this.isInViewPort = true;
+        // window.removeEventListener("scroll", () => {
+        console.log("Ziel erreicht");
+        // }, false);
+      }
+    });
 
 }
 

@@ -7,12 +7,14 @@
             don´t be shy
         </div>
 
-        <form action="http://yvonne-gamboeck.developerakademie.com/yvonne-gamboeck/send_mail.php" method="POST" class="slide-animation">
-            <input name="name" type="text" class="feedback-input montserrat" placeholder="Name*" required/>
-            <input name="email" type="text" class="feedback-input montserrat" placeholder="Email*" required/>
-            <textarea name="text" class="feedback-input montserrat" placeholder="Your message*" required></textarea>
-            <input type="submit" value="Submit"/>
+        <form [formGroup]="profileForm" (ngSubmit)="submit ()" class="slide-animation">
+            <input formControlName="name" type="text" class="feedback-input montserrat" placeholder="Name*" required/>
+            <input formControlName="email" type="text" class="feedback-input montserrat" placeholder="Email*" required/>
+            <textarea formControlName="text" type="text" class="feedback-input montserrat" placeholder="Your message*" required></textarea>
+           <button type="submit" [disabled]="!profileForm.valid">Submit </button>
         </form>
+
+
 
         <div class="snackbar" id="snackbar">Thanks for your message</div>
 
