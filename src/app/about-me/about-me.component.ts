@@ -27,6 +27,9 @@ export class AboutMeComponent implements OnInit {
         // }, false);
       }
     });
+
+  
+
   }
 
 }

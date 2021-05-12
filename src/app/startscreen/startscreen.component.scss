@@ -9,8 +9,6 @@ body {
     margin-right: 15%;
     flex-direction: column;
     height: 100vh;
-/*     background-image: url("../../assets/img/ziegel.jpg");
-    filter: grayscale(1); */
 }
 
 .startscreen-main {
@@ -34,7 +32,9 @@ body {
 .startscreen-logo {
     width: 330px;
     margin-top: -120px;
+    animation: opacityAnimation 3s ease-in-out;
 }
+
 
 span {
     transition: 0.5s;

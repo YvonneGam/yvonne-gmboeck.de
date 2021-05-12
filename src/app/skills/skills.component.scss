@@ -1,0 +1,308 @@
+
+//Skills
+
+.skills-container {
+    margin-top: 60px;
+    background-image: url("../../assets/img/code-4333398_1280.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .skills-input {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ 
+.background-img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -20px;
+    overflow: hidden;
+    top: 2200px;
+    z-index: -3;
+}
+
+.skill-img-container {
+    width: 35%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+    img {
+        width: 70px;
+        height: 70px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+p {
+    color: #e3e9ec;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.icon-bu {
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.imgLink-angular {
+    background: url("../../assets/img/angular-original.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+.imgLink-js {
+    background-image: url("../../assets/img/JavaScript-original.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+.imgLink-css {
+    background-image: url("../../assets/img/CSS-original.png"); //("../../assets/img/CSS-original.png")
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+.imgLink-html {
+    background-image: url("../../assets/img/HTML-original.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+.imgLink-id {
+    background: url("../../assets/img/InDesign-original.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+.imgLink-ps {
+    background-image: url("../../assets/img/Photoshop-originl.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+.imgLink-ai {
+    background-image: url("../../assets/img/Illustrator-original.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: block;
+
+    &:hover {
+        img {
+            display: none;
+        }
+    }
+}
+
+
+//Responsive
+@media (max-width: 1550px) {
+    .skill-img-container {
+        width: 40%;
+    }
+}
+@media (max-width: 1350px) {
+    .skill-img-container {
+        width: 45%;
+    }
+}
+@media (max-width: 1200px) {
+    .skill-img-container {
+        width: 55%;
+    }
+}
+@media (max-width: 1000px) {
+    .skill-img-container {
+        width: 65%;
+    }
+}
+@media (max-width: 840px) {
+    .skill-img-container {
+        width: 75%;
+    }
+}
+@media (max-width: 840px) {
+    .skill-img-container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 635px) {
+    .skill-img-container {
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.imgLink-html {
+    width: 60px;
+    height: 60px;
+}
+.imgLink-css {
+    width: 60px;
+    height: 60px;
+}
+.imgLink-js {
+    width: 60px;
+    height: 60px;
+}
+.imgLink-angular {
+    width: 60px;
+    height: 60px;
+}
+.imgLink-id {
+    width: 60px;
+    height: 60px;
+}
+.imgLink-ai {
+    width: 60px;
+    height: 60px;
+}
+.imgLink-ps {
+    width: 60px;
+    height: 60px;
+}
+}
+
+
+@media (max-width: 580px) {
+p{
+    font-size: 11px;
+}
+
+.skill-img-container{
+    width: 95%;
+}
+}
+
+/* @media (max-width: 500px) {
+    .skills-container {
+        height: 350px;
+    }
+}
+ */
+@media (max-width: 475px) {
+    .text-about {
+        font-size: 0.8rem;
+    }
+    .skill-img-container{
+        img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.imgLink-html {
+    width: 50px;
+    height: 50px;
+}
+.imgLink-css {
+    width: 50px;
+    height: 50px;
+}
+.imgLink-js {
+    width: 50px;
+    height: 50px;
+}
+.imgLink-angular {
+    width: 50px;
+    height: 50px;
+}
+.imgLink-id {
+    width: 50px;
+    height: 50px;
+}
+.imgLink-ai {
+    width: 50px;
+    height: 50px;
+}
+.imgLink-ps {
+    width: 50px;
+    height: 50px;
+}
+}
+
+@media (max-width: 430px) {
+    .skill-img-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .icon-bu {
+        margin-right: 15px;
+        margin-bottom: 10px;
+
+        p{
+            font-size: 9.5px; 
+        }
+    }
+
+}
