@@ -101,6 +101,10 @@ h2 {
     cursor: pointer;
 }
 
+.arrow-startscreen {
+    margin-top: 80px;
+}
+
 .btn {
     text-decoration: none;
     padding: 16px 24px;
@@ -188,6 +192,15 @@ h2 {
         top: 300px;
         right: 50px;
     }
+    .arrow-about-me {
+        top: 0;
+    }
+    .arrow {
+        margin-top: 20px;
+    }
+    .arrow-startscreen {
+        margin-top: 60px;
+    } 
 }
 
 @media (max-width: 850px) {
@@ -221,8 +234,12 @@ h2 {
 
 @media (max-width: 500px) {
     .arrow-up {
-        width:40px;
-        height:45px;
+        width: 40px;
+        height: 45px;
+    }
+
+    .arrow-startscreen {
+        margin-top: 100px;
     }
 }
 
@@ -233,6 +250,9 @@ h2 {
     .arrow-up {
         right: 10px;
         height: 40px; 
-        width:35px;
+        width: 35px;
+    }
+    .arrow-startscreen {
+        margin-top: 210px;
     }
 }
